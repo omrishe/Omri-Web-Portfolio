@@ -36,6 +36,7 @@
 
 .name {
   font-size: 35px;
+  width: inherit;
   font-weight: 500;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   align-self: center;
@@ -47,22 +48,22 @@
   align-self: center;
 }
 
-#me-img {
-  padding-top: 25px;
+#my-img {
+  padding-top: 0;
 }
 
-.about {
+.about-body {
   background-image: url("placeholder11.avif");
   background-size: cover;
 }
 
-.about-summery {
+.about-body > .summery {
   display: flex;
 }
-.about-info-paragraph {
+.about-body .info-paragraph {
   padding: 15px 15px 15px 15px;
 }
-.about-summery-label {
+.about-body .summery-label {
   padding: 15px 15px 15px 15px;
   font-size: 25px;
   font-weight: bolder;
@@ -70,13 +71,40 @@
   padding: 0 0 0 0;
   align-self: center;
   text-align: center;
-  background-color: aliceblue;
 }
-.temp {
-  background-color: aquamarine;
-  margin: 15px 15px 15px 15px;
+.about-body .info-about-me {
+  margin: 0 15px 0 15px;
   padding: 0 0 0 0;
 }
-.name-label {
-  font: 25px;
+.about-body > .name-label {
+  font: 55px;
+  height: fit-content;
+  width: inherit;
+}
+.projects-body {
+  background-image: url("placeholder3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.projects-body .flex-container {
+  display: flex;
+  padding: 30px;
+}
+.project-Btn {
+  border-style: solid;
+  border-color: rgb(93, 108, 155);
+  color: black;
+  height: inherit;
+  font-size: 35px;
+  padding: 0 15px 15px 15px;
+  background-image: url("menu background.jpg");
+  cursor: pointer;
+}
+.projects-body .projects-list {
+  padding: 0 15px 0 15px;
+}
+.project-info {
+  width: 50%;
+  font-size: 35px;
+  padding: 0 25px;
 }
