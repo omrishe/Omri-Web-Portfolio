@@ -1,0 +1,82 @@
+* {
+  padding: 0 0 0 0;
+}
+.index {
+  background-image: url("body background.jpeg");
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-button {
+  display: table-cell;
+  border-style: solid;
+  border-color: rgb(93, 108, 155);
+  color: black;
+  font-size: 25px;
+  padding: 5px 35px 5px 35px;
+  background-image: url("menu background.jpg");
+  cursor: pointer;
+}
+.dropdown-button-highlited {
+  display: table-cell;
+  border-style: solid;
+  border-color: rgb(93, 108, 155);
+  color: yellow;
+  font-size: 25px;
+  padding: 5px 35px 5px 35px;
+  background-image: url("menu background.jpg");
+}
+
+.name {
+  font-size: 35px;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  align-self: center;
+}
+
+.paragraph-div {
+  width: 33%;
+  margin: 0 auto;
+  align-self: center;
+}
+
+#me-img {
+  padding-top: 25px;
+}
+
+.about {
+  background-image: url("placeholder11.avif");
+  background-size: cover;
+}
+
+.about-summery {
+  display: flex;
+}
+.about-info-paragraph {
+  padding: 15px 15px 15px 15px;
+}
+.about-summery-label {
+  padding: 15px 15px 15px 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  height: 100%;
+  padding: 0 0 0 0;
+  align-self: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+.temp {
+  background-color: aquamarine;
+  margin: 15px 15px 15px 15px;
+  padding: 0 0 0 0;
+}
+.name-label {
+  font: 25px;
+}
