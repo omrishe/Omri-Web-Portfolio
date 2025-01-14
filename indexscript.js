@@ -3,23 +3,23 @@ document.addEventListener("DOMContentLoaded", function () {
   menuElem.forEach((liElem) => {
     console.log(liElem.title);
     switch (liElem.title) {
+      case "My Story":
+        liElemOnMouseClickHandler(liElem, "./MyStory.html");
+        liElemOnMouseHoverHandler(liElem);
+        liElemOnMouseOutHandler(liElem);
+        break;
+      case "projects":
+        liElemOnMouseClickHandler(liElem, "./projects.html");
+        liElemOnMouseHoverHandler(liElem);
+        liElemOnMouseOutHandler(liElem);
+        break;
       case "about":
         liElemOnMouseClickHandler(liElem, "./about.html");
         liElemOnMouseHoverHandler(liElem);
         liElemOnMouseOutHandler(liElem);
         break;
-      case "projects":
-        liElemOnMouseClickHandler(liElem, "./about.html");
-        liElemOnMouseHoverHandler(liElem);
-        liElemOnMouseOutHandler(liElem);
-        break;
-      case "contact":
-        liElemOnMouseClickHandler(liElem, "./about.html");
-        liElemOnMouseHoverHandler(liElem);
-        liElemOnMouseOutHandler(liElem);
-        break;
       case "login":
-        liElemOnMouseClickHandler(liElem, "./about.html");
+        liElemOnMouseClickHandler(liElem, "./login.html");
         liElemOnMouseHoverHandler(liElem);
         liElemOnMouseOutHandler(liElem);
         break;
